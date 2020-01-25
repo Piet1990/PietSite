@@ -31,6 +31,11 @@ ol, ul {
 	list-style: none;
 }
 
+
+.skills{
+    text-align: center;   
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -3101,6 +3106,7 @@ input, select, textarea {
 			#main > header {
 				text-align: center;
 			}
+       
 
 		/* Footer */
 
