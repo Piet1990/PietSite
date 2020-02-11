@@ -1,13 +1,19 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Piet Feinbube Projekt 3</title>
+		<title>Piet Feinbube </title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="homepage is-preload">
+	<?php 
+        $projekt = $_GET["projekt"];
+        $projekttext = $_GET["projekttext"];
+        $piet = $_GET["piet"];
+        $bild = $_GET["bild"];
+        ?>
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -16,9 +22,9 @@
 					<!-- Inner -->
 						<div class="inner">
 							<header>
-								<h1><a href="index.html" id="logo">Projekt 1</a></h1>
+								<h1><a href="index.html" id="logo"></a><?php echo $projekt ?></h1>
 								<hr />
-								<p>Beschreibung was ich gemacht habe.</p>
+								<p><?php echo $projekttext ?></p>
 							</header>
 						</div>
 					<!-- Nav -->
@@ -29,19 +35,16 @@
 						</nav>
 
 				</div>
-
+</div>
 			<!-- Main -->
 				<div class="wrapper style2">
 					<article id="main" class="container special">
-						<a href="#" class="image featured"><img src="images/code.jpg" alt="" /></a>
+						<a href="#" class="image featured"><?php echo "<img src= $bild />"?></a>
 						<header>
 							<h2><a href="#">Mein Aktuelles</a></h2>
-							<p>
-								Idee dahinter und alles in kürze
-							</p>
 						</header>
 						<p>
-							Ausführliche beschreibung für das ganze 
+							<?php echo $piet ?>
 						</p>
 					</article>
 				</div>

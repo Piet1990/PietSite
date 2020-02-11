@@ -8,6 +8,14 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="homepage is-preload">
+	<?php 
+	
+	    $user = $_GET["user"];
+	    $password = $_GET["password"];
+	    
+	    echo "Der User", $user, "verwendes das Password" , $password
+	
+	?>
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -32,6 +40,7 @@
 						</nav>
 
 				</div>
+        </div>
 			<!-- Banner -->
 				<section id="banner">
 					<header>
@@ -57,7 +66,11 @@
 						<article>
 							<a href="#" class="image featured"><img src="images/code2.jpg" alt="" /></a>
 							<header>
-								<h3><a href="#">Projekt 2</a></h3>
+								<h3><a href="projekttempall.php?
+								projekt=Projetk2&
+								projekttext=TextProjekt2&
+								piet=Projekt2lang&
+								bild=images/code2.jpg">Projekt 2</a></h3>
 							</header>
 							<p>Java, SQL Datenbank</p>
 						</article>
@@ -65,7 +78,11 @@
 						<article>
 							<a href="https://github.com/Piet1990/PietSite" class="image featured"><img src="images/code3.jpg" alt="" /></a>
 							<header>
-								<h3><a href="#">Projekt 3 = Eigene WebSite</a></h3>
+								<h3><a href="projekttempall.php?
+								projekt=Projetk3&
+								projekttext=TextProjekt3&
+								piet=Projekt3lang&
+								bild=images/code3.jpg">Projekt 3 = Eigene WebSite</a></h3>
 							</header>
 							<p>HTML5, CSS, JS, SQL Datenbank</p>
 						</article>
@@ -74,7 +91,11 @@
 						<article>
 							<a href="https://github.com/Piet1990" class="image featured"><img src="images/code.jpg" alt="" /></a>
 							<header>
-								<h3><a href="#">Projekt 4</a></h3>
+								<h3><a href="projekttempall.php?
+								projekt=Projetk4&
+								projekttext=TextProjekt4&
+								piet=Projekt4lang&
+								bild=images/code.jpg">Projekt 4</a></h3>
 							</header>
 							<p>Python, SQL Datenbank</p>
 						</article>
@@ -82,7 +103,11 @@
 						<article>
 							<a href="https://github.com/Piet1990" class="image featured"><img src="images/jscode.jpg" alt="" /></a>
 							<header>
-								<h3><a href="#">Projekt 5</a></h3>
+								<h3><a href="projekttempall.php?
+								projekt=Projetk5&
+								projekttext=TextProjekt5&
+								piet=Projekt5lang&
+								bild=images/code.jpg">Projekt 5</a></h3>
 							</header>
 							<p>C++, SQL Datenbank oder andere DB Art</p>
 						</article>
