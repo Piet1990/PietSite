@@ -15,16 +15,14 @@
         $bild = $_GET["bild"];
         ?>
 		<div id="page-wrapper">
-
 			<!-- Header -->
 				<div id="header">
-
 					<!-- Inner -->
 						<div class="inner">
 							<header>
 								<h1><a href="index.html" id="logo"></a><?php echo $projekt ?></h1>
 								<hr />
-								<p><?php echo $projekttext ?></p>
+								<p><?php include ($projekttext);  ?></p>
 							</header>
 						</div>
 					<!-- Nav -->
@@ -33,22 +31,20 @@
 								<li><a href="index.html">Main</a></li>
 							</ul>
 						</nav>
-
 				</div>
-</div>
+        </div>
 			<!-- Main -->
 				<div class="wrapper style2">
 					<article id="main" class="container special">
 						<a href="#" class="image featured"><?php echo "<img src= $bild />"?></a>
 						<header>
 							<h2><a href="#">Mein Aktuelles</a></h2>
-						</header>
 						<p>
-							<?php echo $piet ?>
+							<?php  include ($piet); ?>
 						</p>
+						</header>
 					</article>
 				</div>
-
 			<!-- Footer -->
 				<div id="footer">
 					<div class="container">
@@ -68,12 +64,10 @@
 											<li><a href="https://github.com/Piet1990" class="icon brands fa-linkedin-in"><span class="label">GitHub</span></a></li>
 										</ul>
 									</section>
-							</div>
-							
+							</div>					
 						</div>
 					</div>
 		</div>
-
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
@@ -83,6 +77,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
