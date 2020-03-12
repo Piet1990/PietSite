@@ -8,27 +8,21 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="homepage is-preload">
-	<?php 
-        $projekt = $_GET["projekt"];
-        $projekttext = $_GET["projekttext"];
-        $piet = $_GET["piet"];
-        $bild = $_GET["bild"];
-        ?>
 		<div id="page-wrapper">
 			<!-- Header -->
 				<div id="header">
 					<!-- Inner -->
 						<div class="inner">
 							<header>
-								<h1><a href="index.html" id="logo"></a><?php echo $projekt ?></h1>
+								<h1><a href="index.html" id="logo"></a></h1>
 								<hr />
-								<p><?php include ($projekttext);  ?></p>
+								<p></p>
 							</header>
 						</div>
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="index.html">Main</a></li>
+								<li><a>Kalender</a></li>
 							</ul>
 						</nav>
 				</div>
@@ -36,12 +30,8 @@
 			<!-- Main -->
 				<div class="wrapper style2">
 					<article id="main" class="container special">
-						<a href="#" class="image featured"><?php echo "<img src= $bild />"?></a>
+						<a href="#" class="image featured"></a>
 						<header>
-							<h2><a href="#">Mein Aktuelles</a></h2>
-						<p>
-							<?php  include ($piet); ?>
-						</p>
 						</header>
 					</article>
 				</div>
@@ -59,11 +49,6 @@
 											<h3>Hier geht es zu meinen Profilen</h3>
 										</header>
 										<p>Am besten bin ich über meine E-Mail zu ereichen bei fragen.</p>
-										<form action="Kontakt.php" method="get">
-										    <p>Ihre E-Mail:<br><input type="text" name="email"></p>
-										    <p>Name:<br><input type="text" name="name"> </p>
-										    <input type="Submit"  name="" value="speichern">
-										</form>
 										<ul class="icons">
 											<li><a href="https://www.linkedin.com/in/piet-feinbube-3b252a187/" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
 											<li><a href="https://github.com/Piet1990" class="icon brands fa-linkedin-in"><span class="label">GitHub</span></a></li>
