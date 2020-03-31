@@ -48,16 +48,16 @@
 							<header>
 								<h3><a href="https://github.com/Piet1990">MagicDeckVerwaltung</a></h3>
 							</header>
-							<p>Genutzt C#, SQL Datenbank</p>
+							<p>C#, SQL Datenbank</p>
 						</article>
 						<article>
 							<a href="#" class="image featured"><img src="images/code2.jpg" alt="" /></a>
 							<header>
 								<h3><a href="projekttempall.php?
-								projekt=Projetk2&
+								projekt=Java Server Backend&
 								projekttext=./textkurz/TextProjekt2.txt&
 								piet=./texteProjekte/Projekt2lang.txt&
-								bild=images/code2.jpg">Projekt 2</a></h3>
+								bild=images/code2.jpg">Java Server Backend</a></h3>
 							</header>
 							<p>Java, MongoDB</p>
 						</article>
@@ -65,36 +65,14 @@
 							<a href="https://github.com/Piet1990/PietSite" class="image featured"><img src="images/code3.jpg" alt="" /></a>
 							<header>
 								<h3><a href="projekttempall.php?
-								projekt=Projetk3&
+								projekt=Seite&
 								projekttext=./textkurz/TextProjekt3.txt&
 								piet=./texteProjekte/Projekt3lang.txt&
-								bild=images/code3.jpg">Projekt 3 = Eigene WebSite</a></h3>
+								bild=images/code3.jpg">Diese Seite</a></h3>
 							</header>
 							<p>HTML5, CSS, JS, PHP, SQL Datenbank</p>
 						</article>
 						<!--https://github.com/Piet1990/PietSite --->
-						<article>
-							<a href="https://github.com/Piet1990" class="image featured"><img src="images/code.jpg" alt="" /></a>
-							<header>
-								<h3><a href="projekttempall.php?
-								projekt=Projetk4&
-								projekttext=./textkurz/TextProjekt4.txt&
-								piet=./texteProjekte/Projekt4lang.txt&
-								bild=images/code.jpg">Projekt 4</a></h3>
-							</header>
-							<p>Python, SQL Datenbank</p>
-						</article>
-						<article>
-							<a href="https://github.com/Piet1990" class="image featured"><img src="images/jscode.jpg" alt="" /></a>
-							<header>
-								<h3><a href="projekttempall.php?
-								projekt=Projetk5&
-								projekttext=./textkurz/TextProjekt5.txt&
-								piet=./texteProjekte/Projekt5lang.txt&
-								bild=images/code.jpg">Projekt 5</a></h3>
-							</header>
-							<p>C++, SQL Datenbank oder andere DB Art</p>
-						</article>
 					</div>
 				</section>
 			<!-- Main -->
@@ -128,17 +106,12 @@
                     <td>C#</td><td>Git</td>
                 </tr>
                 <tr>
-                    <td>HTML5</td><td>Trello</td>
+                    <td>SQL</td><td>Trello</td>
                 </tr>
                 <tr>
-                    <td>CSS</td><td>Agiles Umfeld</td>
+                    <td>Java</td><td>Agiles Umfeld</td>
                 </tr>
-                <tr>
-                    <td>SQL</td>
-                </tr>
-                <tr>
-                   <td>Java</td>
-                </tr>
+               
                 </table>
             </section>    
         </div>
@@ -180,6 +153,9 @@
 						</div>
 					</section>
 				</div>
+				 <?php 
+						 include("phpHashing.php");                 
+                ?>
 			<!-- Footer -->
 				<div id="footer">
 					<div class="container">
@@ -194,13 +170,18 @@
 											<h3>Hier geht es zu meinen Profilen</h3>
 										</header>
 										<p>Am besten bin ich über meine E-Mail zu ereichen bei fragen.</p>
+										<form action="Kontakt.php" method="get">
+										    <p>Ihre E-Mail:<br><input type="text" name="email"></p>
+										    <p>Name:<br><input type="text" name="name"> </p>
+										    <input type="Submit"  name="" value="speichern">
+										</form>
+										
 										<ul class="icons">
 											<li><a href="https://www.linkedin.com/in/piet-feinbube-3b252a187/" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
-											<li><a href="https://github.com/Piet1990" class="icon brands fa-linkedin-in"><span class="label">GitHub</span></a></li>
+											<li><a href="https://github.com/Piet1990" ><span class="label">GitHub</span></a></li>
 										</ul>
 									</section>
 							</div>
-							
 						</div>
 					</div>
 		</div>

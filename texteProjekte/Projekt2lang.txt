@@ -1,1 +1,4 @@
-Etwas in Java das mich ineressiert um die Sprache etwas zu verinnerlichen.
+Etwas in Java das mich interessiert um die Sprache etwas zu verinnerlichen.
+
+Ist das Backend in dieser Seite wo die Daten aus der Datenbank verarbeitet werden, damit ich auf Ihre Anfragen einfach Antworten kann.
+Der Inhalt der Seiten wird auch aus Datein gelesen damit ich die Seite einfach dort bearbeiten kann und nicht im HTML Arbeiten muss.
